@@ -1,0 +1,56 @@
+A. BABAEI PORTFOLIO V4 — EXACT UPLOAD PROCEDURE
+
+1. Extract the ZIP.
+2. Open the GitHub repository A-Babaei/A-Babaei.github.io.
+3. Delete old website files or replace them with the files listed below.
+4. Upload every listed root file directly to the repository root.
+5. Upload the complete media folder without renaming it.
+6. Do not upload the outer a-babaei-portfolio-v4 folder.
+7. Commit to main.
+8. Settings > Pages > Deploy from a branch > main > /(root).
+
+ROOT FILES TO UPLOAD
+.nojekyll
+404.html
+index.html
+research.html
+publications.html
+work.html
+powerpoint.html
+video-edits.html
+figures.html
+websites.html
+coding.html
+transitions.html
+resources.html
+cv.html
+contact.html
+styles.css
+site-data.js
+site.js
+favicon.svg
+profile-placeholder.svg
+social-preview.svg
+A-Babaei_Professional_CV.pdf
+A-Babaei_Professional_CV.docx
+robots.txt
+sitemap.xml
+PROTECTION_NOTES.txt
+
+FOLDER TO UPLOAD
+media/
+  publication-1.svg through publication-3.svg
+  powerpoint-1.svg through powerpoint-3.svg
+  video-1.svg through video-3.svg
+  figure-1.svg through figure-3.svg
+  website-1.svg through website-3.svg
+  coding-1.svg through coding-3.svg
+  transition-1.svg through transition-3.svg
+  resource-1.svg through resource-3.svg
+
+OPTIONAL PROFILE PHOTO
+Upload profile-photo.jpg to the repository root. Exact filename: profile-photo.jpg
+Recommended: 1200 x 1500 px, JPG, less than 500 KB.
+
+TEST
+Open https://a-babaei.github.io/?v=4 in an incognito tab after the Pages deployment completes.
