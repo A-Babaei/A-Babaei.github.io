@@ -1,0 +1,17 @@
+V5 PERFORMANCE AND STABILITY CHANGES
+
+- Replaced transform-driven sliders with native CSS scroll-snap.
+- Reduced particle count from thousands to 560 desktop / 240 mobile.
+- Limited animation to 30 FPS desktop and 24 FPS mobile.
+- Pauses Canvas animation when offscreen or the tab is hidden.
+- Uses static rendering for reduced-motion and data-saving users.
+- Removed persistent custom cursor and expensive pointer effects.
+- Reduced backdrop blur from 22px to 8px and disabled it on mobile.
+- Removed large CSS filter: blur() layers.
+- Capped Canvas device pixel ratio to 1.25 desktop and 1 mobile.
+- Replaced fixed oversized mobile sections with content-driven heights.
+- Replaced fixed 560px slider height with responsive aspect ratios.
+- Added content-visibility for below-the-fold sections.
+- Added blue, white, and green palette and glows.
+- Added click-to-load YouTube facade.
+- Preserved media preview deterrents without blocking normal keyboard shortcuts.
