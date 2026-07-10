@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-labelledby="t d">
-<title id="t">Profile image placeholder</title><desc id="d">Replace this image with a professional portrait named profile-photo.jpg.</desc>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#131313"/><stop offset="1" stop-color="#050505"/></linearGradient><radialGradient id="r" cx="75%" cy="15%" r="65%"><stop stop-color="#61d5cf" stop-opacity=".22"/><stop offset="1" stop-color="#61d5cf" stop-opacity="0"/></radialGradient></defs>
-<rect width="1000" height="1250" fill="url(#g)"/><rect width="1000" height="1250" fill="url(#r)"/>
-<g fill="none" stroke="#2b2b2b"><path d="M0 250h1000M0 500h1000M0 750h1000M0 1000h1000"/><path d="M250 0v1250M500 0v1250M750 0v1250"/></g>
-<circle cx="500" cy="420" r="160" fill="#dedbd3" opacity=".84"/><path d="M215 1250c25-269 137-436 285-436s260 167 285 436" fill="#dedbd3" opacity=".84"/>
-<circle cx="800" cy="185" r="105" fill="none" stroke="#61d5cf" stroke-opacity=".48" stroke-width="2"/><circle cx="800" cy="185" r="145" fill="none" stroke="#ff684b" stroke-opacity=".2" stroke-width="2"/>
-<text x="70" y="1110" fill="#f0ede6" font-family="Arial, sans-serif" font-size="38" font-weight="700">ADD YOUR PORTRAIT</text><text x="70" y="1165" fill="#8f8f8f" font-family="Arial, sans-serif" font-size="25">Upload as: profile-photo.jpg</text>
-</svg>
