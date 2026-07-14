@@ -1,4 +1,4 @@
-# A. Babaei - Final Edited Portfolio
+# A. Babaei - Edited Portfolio
 
 This package is ready for GitHub Pages and includes:
 
