@@ -1,0 +1,21 @@
+ASSET UPDATE GUIDE
+
+Profile photograph
+- File: profile-photo.jpg
+- Root location beside index.html
+- Recommended ratio: 4:5
+
+Logo
+- Header mark: logo-mark.webp
+- Full logo: logo-full.webp
+- Browser icon: favicon.png
+
+Evidence covers
+- Folder: media/
+- Existing filenames are retained, so the HTML pages do not need editing when a cover is replaced with another file of the same name.
+
+CV files
+- A-Babaei_Academic_CV_PhD_Application.pdf/.docx
+- A-Babaei_Professional_CV_Work_Application.pdf/.docx
+
+The public site cannot prevent screenshots or determined downloading. Use compressed, watermarked previews and keep editable source files private.

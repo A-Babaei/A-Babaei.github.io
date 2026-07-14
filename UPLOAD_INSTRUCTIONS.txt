@@ -1,0 +1,36 @@
+A. BABAEI PORTFOLIO - FINAL EDITED PACKAGE
+
+FULL REPLACEMENT
+1. Extract the ZIP.
+2. Open the GitHub repository A-Babaei/A-Babaei.github.io.
+3. Upload the CONTENTS of the extracted folder directly to the repository root.
+4. Commit to main.
+5. In Settings > Pages, use main and / (root).
+
+IMPORTANT ROOT FILES
+index.html
+research.html
+publications.html
+evidence.html
+powerpoint.html
+video-edits.html
+figures.html
+websites.html
+coding.html
+transitions.html
+resources.html
+cv.html
+contact.html
+404.html
+profile-photo.jpg
+logo-mark.webp
+logo-full.webp
+favicon.png
+social-preview.jpg
+A-Babaei_Academic_CV_PhD_Application.pdf
+A-Babaei_Academic_CV_PhD_Application.docx
+A-Babaei_Professional_CV_Work_Application.pdf
+A-Babaei_Professional_CV_Work_Application.docx
+media/ (complete folder)
+
+The HTML pages are self-contained; external styles.css/site.js files are retained only for compatibility.
