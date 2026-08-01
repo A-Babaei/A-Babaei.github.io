@@ -85,8 +85,9 @@ function renderProtectedCert(canvas, src){
       ctx.clearRect(0,0,w,h);
       ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
       ctx.save();
-      ctx.globalAlpha = .14;
-      ctx.fillStyle = '#eaf6ff';
+      ctx.globalCompositeOperation = 'difference';
+      ctx.globalAlpha = .55;
+      ctx.fillStyle = '#9a9a9a';
       ctx.font = '700 11px Arial';
       ctx.translate(w/2, h/2);
       ctx.rotate(-Math.PI/10);
