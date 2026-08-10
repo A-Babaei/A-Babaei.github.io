@@ -63,6 +63,42 @@ window.CERT_DATA = [
     "category": "Conference",
     "image": "certificates/cert-07-ihbm2021.jpg",
     "desc": "Certificate of attendance at the 8th Iranian Human Brain Mapping Congress, Tehran, Iran."
+  },
+  {
+    "id": 8,
+    "title": "Making Knowledge-Based Products Based on AI in Biomedical Engineering",
+    "issuer": "Biomedical Engineering Student Scientific Association, Islamic Azad University – Science and Research Branch",
+    "date": "Jan 2023",
+    "category": "Course Certificate",
+    "image": "certificates/cert-08-ai-biomedical-engineering.jpg",
+    "desc": "Certificate of attendance for a 6-hour course on making knowledge-based products based on artificial intelligence in biomedical engineering, held by the Biomedical Engineering Student Scientific Association, Faculty of Medical Sciences and Technologies, Science and Research Branch."
+  },
+  {
+    "id": 9,
+    "title": "Familiarity with Natural and Artificial Neural Networks",
+    "issuer": "Ravand Sharif Specialized Guidance Institute / Ideal Hoosh Journal, Kharazmi University",
+    "date": "Oct 2021",
+    "category": "Training Course",
+    "image": "certificates/cert-09-neural-networks-training.jpg",
+    "desc": "Completion of a 2-hour training course on familiarity with natural and artificial neural networks, held by the Ideal Hoosh journal of Kharazmi University."
+  },
+  {
+    "id": 10,
+    "title": "Electrophysiology Equipment & Vital Signal Recording",
+    "issuer": "Korpi Research and Educational Academy — pre-event of the Rah-Neshan national competitions",
+    "date": "Sep 2021",
+    "category": "Training Course",
+    "image": "certificates/cert-10-electrophysiology-equipment.jpg",
+    "desc": "Completion of a 2-hour pre-event training session on electrophysiology equipment and vital signal recording, part of the Rah-Neshan national competitions."
+  },
+  {
+    "id": 11,
+    "title": "Ophthalmology Equipment & Market Opportunities",
+    "issuer": "Scientific Association, Faculty of Pharmacy, Iran University of Medical Sciences — pre-event of the Rah-Neshan national competitions",
+    "date": "Oct 2021",
+    "category": "Training Course",
+    "image": "certificates/cert-11-ophthalmology-equipment.jpg",
+    "desc": "Completion of a 2-hour pre-event training session on ophthalmology equipment and market opportunities, part of the Rah-Neshan national competitions."
   }
 ];
 
