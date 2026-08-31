@@ -9,6 +9,51 @@ window.GRAPHIC_DATA = [
     "category": "Personal Logo",
     "image": "logo-full.webp",
     "desc": "Original monogram and wordmark designed as the personal brand identity for A. Babaei, biomedical engineer."
+  },
+  {
+    "id": 2,
+    "title": "ADSCHI — Marketing Agency Instagram Kit",
+    "issuer": "A. Babaei — Social Media Design",
+    "date": "2026",
+    "category": "Instagram Grid Design",
+    "image": "graphical-evidence/gfx02adschimarketingagencyinstagramgrid.jpg",
+    "desc": "A 12-post Instagram grid for a marketing and advertising agency, covering services (websites, SEO, digital marketing, CRM), growth metrics, and a tools/results showcase in a unified navy-and-blue visual system."
+  },
+  {
+    "id": 3,
+    "title": "ADSCHI — Certifications Instagram Kit",
+    "issuer": "A. Babaei — Social Media Design",
+    "date": "2026",
+    "category": "Instagram Grid Design",
+    "image": "graphical-evidence/gfx03adschicertificationsinstagramgrid.jpg",
+    "desc": "A 9-post companion set presenting the agency's Google Ads and professional certifications as a trust-building carousel, paired with a gold-on-navy award aesthetic."
+  },
+  {
+    "id": 4,
+    "title": "FreshJoy Terrariums — Instagram Profile Design",
+    "issuer": "A. Babaei — Social Media Design",
+    "date": "2026",
+    "category": "Instagram Grid Design",
+    "image": "graphical-evidence/gfx04freshjoyterrariumsinstagramprofile.jpg",
+    "desc": "A full Instagram profile concept for a handcrafted terrarium brand — profile header, highlight icons, and a 12-post grid blending product photography with brand messaging."
+  },
+  {
+    "id": 5,
+    "title": "Sirdent — Dental Equipment Instagram Kit (Dark)",
+    "issuer": "A. Babaei — Social Media Design",
+    "date": "2026",
+    "category": "Instagram Grid Design",
+    "image": "graphical-evidence/gfx05sirdentdentalequipmentgriddark.jpg",
+    "desc": "A 12-post Farsi-language Instagram grid for a dental-equipment supplier, built in a deep green and gold palette to convey clinical trust and premium quality."
+  },
+  {
+    "id": 6,
+    "title": "Sirdent — Dental Equipment Instagram Kit (Light)",
+    "issuer": "A. Babaei — Social Media Design",
+    "date": "2026",
+    "category": "Instagram Grid Design",
+    "image": "graphical-evidence/gfx06sirdentdentalequipmentgridlight.jpg",
+    "desc": "A companion light/cream variant of the Sirdent grid, offering the same 12-post structure in a softer editorial palette for A/B presentation."
   }
 ];
 
