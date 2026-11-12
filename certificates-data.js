@@ -2,6 +2,96 @@
 // Add a new object below and drop the matching image into /certificates/ to publish a new certification.
 window.CERT_DATA = [
   {
+    "id": 12,
+    "title": "Certified Peer Reviewer Course",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 12, 2026",
+    "category": "Professional Development",
+    "image": "certificates/certified-peer-reviewer-course-certificate.png",
+    "desc": "Completed every module in Elsevier’s Certified Peer Reviewer Course (3 hours and 15 minutes)."
+  },
+  {
+    "id": 13,
+    "title": "Introduction to the Certified Peer Reviewer Course",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Oct 25, 2026",
+    "category": "Course Module",
+    "image": "certificates/introduction-certified-peer-reviewer-course-certificate.png",
+    "desc": "Completed the introductory module of the Certified Peer Reviewer Course."
+  },
+  {
+    "id": 14,
+    "title": "What to expect from the Certified Peer Reviewer Course?",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/expect-certified-peer-reviewer-course-certificate.png",
+    "desc": "Completed the course orientation module."
+  },
+  {
+    "id": 15,
+    "title": "1.1 What is peer review? Why peer review?",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/11-peer-review-peer-review-certificate.png",
+    "desc": "Completed the module on the purpose and role of peer review."
+  },
+  {
+    "id": 16,
+    "title": "1.2 Models of peer review",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/12-models-peer-review-certificate.png",
+    "desc": "Completed the module on peer-review models."
+  },
+  {
+    "id": 17,
+    "title": "1.3 The typical peer review process",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/13-typical-peer-review-process-certificate.png",
+    "desc": "Completed the module on submission, editorial assessment, peer review, and decisions."
+  },
+  {
+    "id": 18,
+    "title": "1.4 How to get involved",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/14-get-involved-certificate.png",
+    "desc": "Completed the module on becoming involved in peer review."
+  },
+  {
+    "id": 19,
+    "title": "2.0 I just got a review invite, what’s next?",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/20-just-got-review-invite-next-certificate.png",
+    "desc": "Completed the module on how to respond to a peer-review invitation."
+  },
+  {
+    "id": 20,
+    "title": "3.2 The comments to editors and decision recommendations",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/32-comments-editors-decision-recommendations-certificate.png",
+    "desc": "Completed the module on editor comments and decision recommendations."
+  },
+  {
+    "id": 21,
+    "title": "4.0 What next?",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 11, 2026",
+    "category": "Course Module",
+    "image": "certificates/40-next-certificate.png",
+    "desc": "Completed the concluding module of the Certified Peer Reviewer Course."
+  },
+  {
     "id": 1,
     "title": "Biotechnology Summer School",
     "issuer": "Amirkabir University of Technology",
