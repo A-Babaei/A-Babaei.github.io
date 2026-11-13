@@ -201,8 +201,8 @@ function renderProtectedCert(canvas, src){
       var host = canvas.parentElement;
       var w = host.clientWidth, h = host.clientHeight;
       if(!w || !h) return;
-      var dpr = Math.min(window.devicePixelRatio||1, 2);
-      canvas.width = w*dpr; canvas.height = h*dpr;
+      var dpr = Math.min(window.devicePixelRatio||1, 1.25);
+      canvas.width = Math.max(1,Math.round(w*dpr)); canvas.height = Math.max(1,Math.round(h*dpr));
       canvas.style.width = w+'px'; canvas.style.height = h+'px';
       ctx.setTransform(dpr,0,0,dpr,0,0);
       var ir = img.naturalWidth/img.naturalHeight, cr = w/h, sx,sy,sw,sh;
@@ -211,14 +211,32 @@ function renderProtectedCert(canvas, src){
       ctx.clearRect(0,0,w,h);
       ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
       ctx.save();
-      ctx.globalCompositeOperation = 'difference';
-      ctx.globalAlpha = .55;
-      ctx.fillStyle = '#9a9a9a';
-      ctx.font = '700 11px Arial';
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.globalAlpha = .68;
       ctx.translate(w/2, h/2);
       ctx.rotate(-Math.PI/10);
-      var text = 'A. BABAEI · VERIFIED EVIDENCE · NOT FOR DISTRIBUTION';
-      for(var y=-h*1.4; y<h*1.4; y+=34){ ctx.fillText(text, -w*1.2, y); }
+      ctx.font = '800 12px Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = 'rgba(0,0,0,.72)';
+      ctx.fillStyle = 'rgba(255,255,255,.72)';
+      var text = 'A. BABAEI · WATERMARKED PREVIEW · NOT AN ORIGINAL';
+      for(var y=-h*1.5; y<h*1.5; y+=54){
+        for(var x=-w*1.6; x<w*1.6; x+=370){
+          ctx.strokeText(text,x,y);
+          ctx.fillText(text,x,y);
+        }
+      }
+      ctx.restore();
+      ctx.save();
+      ctx.fillStyle = 'rgba(2,8,13,.82)';
+      ctx.fillRect(0,h-25,w,25);
+      ctx.fillStyle = 'rgba(255,255,255,.96)';
+      ctx.font = '700 10px Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('WATERMARKED PREVIEW · VERIFY WITH ISSUER',w/2,h-12.5);
       ctx.restore();
     }
     draw();
