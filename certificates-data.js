@@ -212,31 +212,33 @@ function renderProtectedCert(canvas, src){
       ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
       ctx.save();
       ctx.globalCompositeOperation = 'source-over';
-      ctx.globalAlpha = .68;
+      ctx.globalAlpha = .52;
       ctx.translate(w/2, h/2);
       ctx.rotate(-Math.PI/10);
-      ctx.font = '800 12px Arial, sans-serif';
+      var size = Math.max(10,Math.min(18,w*.02));
+      ctx.font = '800 '+size+'px Arial, sans-serif';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = 'rgba(0,0,0,.72)';
+      ctx.lineWidth = Math.max(1,size*.09);
+      ctx.strokeStyle = 'rgba(0,0,0,.68)';
       ctx.fillStyle = 'rgba(255,255,255,.72)';
-      var text = 'A. BABAEI · WATERMARKED PREVIEW · NOT AN ORIGINAL';
-      for(var y=-h*1.5; y<h*1.5; y+=54){
-        for(var x=-w*1.6; x<w*1.6; x+=370){
+      var text = 'A. BABAEI · WATERMARKED PREVIEW';
+      for(var row=-1; row<=1; row++){
+        for(var col=-1; col<=1; col++){
+          var x=col*w*.72, y=row*h*.4;
           ctx.strokeText(text,x,y);
           ctx.fillText(text,x,y);
         }
       }
       ctx.restore();
       ctx.save();
-      ctx.fillStyle = 'rgba(2,8,13,.82)';
-      ctx.fillRect(0,h-25,w,25);
+      ctx.fillStyle = 'rgba(2,8,13,.78)';
+      ctx.fillRect(0,h-27,w,27);
       ctx.fillStyle = 'rgba(255,255,255,.96)';
-      ctx.font = '700 10px Arial, sans-serif';
+      ctx.font = '700 '+Math.max(9,Math.min(12,w*.014))+'px Arial, sans-serif';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.fillText('WATERMARKED PREVIEW · VERIFY WITH ISSUER',w/2,h-12.5);
+      ctx.fillText('WATERMARKED PREVIEW · VERIFY WITH ISSUER',w/2,h-13.5);
       ctx.restore();
     }
     draw();
