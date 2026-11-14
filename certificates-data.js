@@ -135,51 +135,51 @@ window.CERT_DATA = [
     "category": "Training Program",
     "image": "certificates/cert-05-neuroscience-training.jpg",
     "desc": "Participation in a 10-session, 30-hour virtual researcher training program in neuroscience and cognitive sciences."
-  },
-  {
-    "id": 6,
-    "title": "Learn SQL",
-    "issuer": "Codecademy",
-    "date": "2024",
-    "category": "Online Course",
-    "image": "certificates/cert-06-codecademy-sql.jpg",
-    "desc": "Completion of the Learn SQL course, including the Multiple Tables module."
-  },
-  {
-    "id": 7,
-    "title": "8th Iranian Human Brain Mapping Congress",
-    "issuer": "Shahid Beheshti University",
-    "date": "Nov 2021",
-    "category": "Conference",
-    "image": "certificates/cert-07-ihbm2021.jpg",
-    "desc": "Certificate of attendance at the 8th Iranian Human Brain Mapping Congress, Tehran, Iran."
-  },
-  {
-    "id": 8,
-    "title": "Making Knowledge-Based Products Based on AI in Biomedical Engineering",
-    "issuer": "Biomedical Engineering Student Scientific Association, Islamic Azad University – Science and Research Branch",
-    "date": "Jan 2023",
-    "category": "Course Certificate",
-    "image": "certificates/cert-08-ai-biomedical-engineering.jpg",
-    "desc": "Certificate of attendance for a 6-hour course on making knowledge-based products based on artificial intelligence in biomedical engineering, held by the Biomedical Engineering Student Scientific Association, Faculty of Medical Sciences and Technologies, Science and Research Branch."
-  },
-  {
-    "id": 9,
-    "title": "Familiarity with Natural and Artificial Neural Networks",
-    "issuer": "Ravand Sharif Specialized Guidance Institute / Ideal Hoosh Journal, Kharazmi University",
-    "date": "Oct 2021",
-    "category": "Training Course",
-    "image": "certificates/cert-09-neural-networks-training.jpg",
-    "desc": "Completion of a 2-hour training course on familiarity with natural and artificial neural networks, held by the Ideal Hoosh journal of Kharazmi University."
-  },
-  {
-    "id": 10,
-    "title": "Electrophysiology Equipment & Vital Signal Recording",
-    "issuer": "Korpi Research and Educational Academy — pre-event of the Rah-Neshan national competitions",
-    "date": "Sep 2021",
-    "category": "Training Course",
-    "image": "certificates/cert-10-electrophysiology-equipment.jpg",
-    "desc": "Completion of a 2-hour pre-event training session on electrophysiology equipment and vital signal recording, part of the Rah-Neshan national competitions."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   },
   {
     "id": 11,
@@ -189,8 +189,36 @@ window.CERT_DATA = [
     "category": "Training Course",
     "image": "certificates/cert-11-ophthalmology-equipment.jpg",
     "desc": "Completion of a 2-hour pre-event training session on ophthalmology equipment and market opportunities, part of the Rah-Neshan national competitions."
+  },
+  {
+    "id": 22,
+    "title": "What is plagiarism and how to avoid it",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 14, 2026",
+    "category": "Course Module",
+    "image": "certificates/plagiarism-avoid-certificate-1.png",
+    "desc": "Completed the module on plagiarism and how to avoid it."
+  },
+  {
+    "id": 23,
+    "title": "Rejected manuscripts: Next steps and finding the right fit",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 14, 2026",
+    "category": "Course Module",
+    "image": "certificates/rejected-manuscripts-next-steps-finding-right-fit-certificate-1.png",
+    "desc": "Completed the module on next steps after manuscript rejection and finding a suitable journal."
+  },
+  {
+    "id": 24,
+    "title": "Demystifying permissions",
+    "issuer": "Elsevier Researcher Academy",
+    "date": "Nov 14, 2026",
+    "category": "Course Module",
+    "image": "certificates/demystifying-permissions-certificate-1.png",
+    "desc": "Completed the module on permissions for scholarly publishing."
   }
 ];
+
 
 function renderProtectedCert(canvas, src){
   if(!canvas) return;
